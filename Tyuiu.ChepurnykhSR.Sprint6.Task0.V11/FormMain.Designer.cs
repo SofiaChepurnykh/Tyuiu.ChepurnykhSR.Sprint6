@@ -32,6 +32,7 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task0.V11
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.buttonDone = new System.Windows.Forms.Button();
             this.groupBoxCondition = new System.Windows.Forms.GroupBox();
+            this.pictureBoxFormula = new System.Windows.Forms.PictureBox();
             this.lableCondition = new System.Windows.Forms.Label();
             this.groupInput = new System.Windows.Forms.GroupBox();
             this.labelVarX = new System.Windows.Forms.Label();
@@ -40,11 +41,10 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task0.V11
             this.labelResult = new System.Windows.Forms.Label();
             this.textBoxResult = new System.Windows.Forms.TextBox();
             this.buttonHelp = new System.Windows.Forms.Button();
-            this.pictureBoxFormula = new System.Windows.Forms.PictureBox();
             this.groupBoxCondition.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula)).BeginInit();
             this.groupInput.SuspendLayout();
             this.groupBoxOutput.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonDone
@@ -67,6 +67,15 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task0.V11
             this.groupBoxCondition.TabIndex = 2;
             this.groupBoxCondition.TabStop = false;
             this.groupBoxCondition.Text = "Условие";
+            // 
+            // pictureBoxFormula
+            // 
+            this.pictureBoxFormula.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxFormula.Image")));
+            this.pictureBoxFormula.Location = new System.Drawing.Point(334, 16);
+            this.pictureBoxFormula.Name = "pictureBoxFormula";
+            this.pictureBoxFormula.Size = new System.Drawing.Size(262, 37);
+            this.pictureBoxFormula.TabIndex = 1;
+            this.pictureBoxFormula.TabStop = false;
             // 
             // lableCondition
             // 
@@ -143,15 +152,6 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task0.V11
             this.buttonHelp.UseVisualStyleBackColor = true;
             this.buttonHelp.Click += new System.EventHandler(this.buttonHelp_Click);
             // 
-            // pictureBoxFormula
-            // 
-            this.pictureBoxFormula.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxFormula.Image")));
-            this.pictureBoxFormula.Location = new System.Drawing.Point(334, 16);
-            this.pictureBoxFormula.Name = "pictureBoxFormula";
-            this.pictureBoxFormula.Size = new System.Drawing.Size(262, 37);
-            this.pictureBoxFormula.TabIndex = 1;
-            this.pictureBoxFormula.TabStop = false;
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -169,11 +169,11 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task0.V11
             this.Text = "Спринт 6 | Таск 0 | Вариант 11 | Чепурных С. Р.";
             this.groupBoxCondition.ResumeLayout(false);
             this.groupBoxCondition.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula)).EndInit();
             this.groupInput.ResumeLayout(false);
             this.groupInput.PerformLayout();
             this.groupBoxOutput.ResumeLayout(false);
             this.groupBoxOutput.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula)).EndInit();
             this.ResumeLayout(false);
 
         }
