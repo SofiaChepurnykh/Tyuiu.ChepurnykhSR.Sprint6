@@ -30,7 +30,10 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task1.V29
         private void InitializeComponent()
         {
             this.groupBoxTask_CSR = new System.Windows.Forms.GroupBox();
+            this.lableConditionTwo_CSR = new System.Windows.Forms.Label();
+            this.lableCondition_CSR = new System.Windows.Forms.Label();
             this.groupBoxResult_CSR = new System.Windows.Forms.GroupBox();
+            this.labelResult_CSR = new System.Windows.Forms.Label();
             this.textBoxResult_CSR = new System.Windows.Forms.TextBox();
             this.buttonDone_CSR = new System.Windows.Forms.Button();
             this.buttonHelp_CSR = new System.Windows.Forms.Button();
@@ -39,9 +42,6 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task1.V29
             this.labelVarА_CSR = new System.Windows.Forms.Label();
             this.textBoxVarB_CSR = new System.Windows.Forms.TextBox();
             this.textBoxVarA_CSR = new System.Windows.Forms.TextBox();
-            this.labelResult_CSR = new System.Windows.Forms.Label();
-            this.lableCondition_CSR = new System.Windows.Forms.Label();
-            this.lableConditionTwo_CSR = new System.Windows.Forms.Label();
             this.groupBoxTask_CSR.SuspendLayout();
             this.groupBoxResult_CSR.SuspendLayout();
             this.groupInput_CSR.SuspendLayout();
@@ -58,6 +58,24 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task1.V29
             this.groupBoxTask_CSR.TabStop = false;
             this.groupBoxTask_CSR.Text = "Условие";
             // 
+            // lableConditionTwo_CSR
+            // 
+            this.lableConditionTwo_CSR.AutoSize = true;
+            this.lableConditionTwo_CSR.Location = new System.Drawing.Point(9, 33);
+            this.lableConditionTwo_CSR.Name = "lableConditionTwo_CSR";
+            this.lableConditionTwo_CSR.Size = new System.Drawing.Size(190, 13);
+            this.lableConditionTwo_CSR.TabIndex = 1;
+            this.lableConditionTwo_CSR.Text = "Результат вывести в виде таблицы.";
+            // 
+            // lableCondition_CSR
+            // 
+            this.lableCondition_CSR.AutoSize = true;
+            this.lableCondition_CSR.Location = new System.Drawing.Point(9, 20);
+            this.lableCondition_CSR.Name = "lableCondition_CSR";
+            this.lableCondition_CSR.Size = new System.Drawing.Size(272, 13);
+            this.lableCondition_CSR.TabIndex = 0;
+            this.lableCondition_CSR.Text = "Протабулировать функцию на заданном диапазоне.";
+            // 
             // groupBoxResult_CSR
             // 
             this.groupBoxResult_CSR.Controls.Add(this.labelResult_CSR);
@@ -68,6 +86,15 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task1.V29
             this.groupBoxResult_CSR.TabIndex = 1;
             this.groupBoxResult_CSR.TabStop = false;
             this.groupBoxResult_CSR.Text = "Вывод данных";
+            // 
+            // labelResult_CSR
+            // 
+            this.labelResult_CSR.AutoSize = true;
+            this.labelResult_CSR.Location = new System.Drawing.Point(7, 20);
+            this.labelResult_CSR.Name = "labelResult_CSR";
+            this.labelResult_CSR.Size = new System.Drawing.Size(62, 13);
+            this.labelResult_CSR.TabIndex = 1;
+            this.labelResult_CSR.Text = "Результат:";
             // 
             // textBoxResult_CSR
             // 
@@ -148,33 +175,6 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task1.V29
             this.textBoxVarA_CSR.Size = new System.Drawing.Size(100, 20);
             this.textBoxVarA_CSR.TabIndex = 0;
             // 
-            // labelResult_CSR
-            // 
-            this.labelResult_CSR.AutoSize = true;
-            this.labelResult_CSR.Location = new System.Drawing.Point(7, 20);
-            this.labelResult_CSR.Name = "labelResult_CSR";
-            this.labelResult_CSR.Size = new System.Drawing.Size(62, 13);
-            this.labelResult_CSR.TabIndex = 1;
-            this.labelResult_CSR.Text = "Результат:";
-            // 
-            // lableCondition_CSR
-            // 
-            this.lableCondition_CSR.AutoSize = true;
-            this.lableCondition_CSR.Location = new System.Drawing.Point(9, 20);
-            this.lableCondition_CSR.Name = "lableCondition_CSR";
-            this.lableCondition_CSR.Size = new System.Drawing.Size(272, 13);
-            this.lableCondition_CSR.TabIndex = 0;
-            this.lableCondition_CSR.Text = "Протабулировать функцию на заданном диапазоне.";
-            // 
-            // lableConditionTwo_CSR
-            // 
-            this.lableConditionTwo_CSR.AutoSize = true;
-            this.lableConditionTwo_CSR.Location = new System.Drawing.Point(9, 33);
-            this.lableConditionTwo_CSR.Name = "lableConditionTwo_CSR";
-            this.lableConditionTwo_CSR.Size = new System.Drawing.Size(190, 13);
-            this.lableConditionTwo_CSR.TabIndex = 1;
-            this.lableConditionTwo_CSR.Text = "Результат вывести в виде таблицы.";
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -188,7 +188,7 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task1.V29
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Спринт 6 | Таск 0 | Вариант 11 | Чепурных С. Р.";
+            this.Text = "Спринт 6 | Таск 1 | Вариант 29 | Чепурных С. Р.";
             this.groupBoxTask_CSR.ResumeLayout(false);
             this.groupBoxTask_CSR.PerformLayout();
             this.groupBoxResult_CSR.ResumeLayout(false);
