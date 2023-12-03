@@ -29,9 +29,9 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.buttonDone_CSR = new System.Windows.Forms.Button();
             this.buttonHelp_CSR = new System.Windows.Forms.Button();
             this.groupInput_CSR = new System.Windows.Forms.GroupBox();
@@ -40,14 +40,16 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
             this.labelBoxStartStep_CSR = new System.Windows.Forms.Label();
             this.textBoxStartStep_CSR = new System.Windows.Forms.TextBox();
             this.groupBoxResult_CSR = new System.Windows.Forms.GroupBox();
-            this.groupBoxTask_CSR = new System.Windows.Forms.GroupBox();
             this.dataGridViewFunction_CSR = new System.Windows.Forms.DataGridView();
             this.ColumnXY = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnX = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.groupBoxTask_CSR = new System.Windows.Forms.GroupBox();
             this.chartFunction_CSR = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupInput_CSR.SuspendLayout();
             this.groupBoxResult_CSR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFunction_CSR)).BeginInit();
+            this.groupBoxTask_CSR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction_CSR)).BeginInit();
             this.SuspendLayout();
             // 
@@ -129,15 +131,6 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
             this.groupBoxResult_CSR.TabStop = false;
             this.groupBoxResult_CSR.Text = "Вывод данных";
             // 
-            // groupBoxTask_CSR
-            // 
-            this.groupBoxTask_CSR.Location = new System.Drawing.Point(12, 12);
-            this.groupBoxTask_CSR.Name = "groupBoxTask_CSR";
-            this.groupBoxTask_CSR.Size = new System.Drawing.Size(386, 248);
-            this.groupBoxTask_CSR.TabIndex = 4;
-            this.groupBoxTask_CSR.TabStop = false;
-            this.groupBoxTask_CSR.Text = "Условие";
-            // 
             // dataGridViewFunction_CSR
             // 
             this.dataGridViewFunction_CSR.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -162,23 +155,45 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
             this.ColumnX.Name = "ColumnX";
             this.ColumnX.Width = 50;
             // 
+            // groupBoxTask_CSR
+            // 
+            this.groupBoxTask_CSR.Controls.Add(this.textBox1);
+            this.groupBoxTask_CSR.Location = new System.Drawing.Point(12, 12);
+            this.groupBoxTask_CSR.Name = "groupBoxTask_CSR";
+            this.groupBoxTask_CSR.Size = new System.Drawing.Size(386, 248);
+            this.groupBoxTask_CSR.TabIndex = 4;
+            this.groupBoxTask_CSR.TabStop = false;
+            this.groupBoxTask_CSR.Text = "Условие";
+            // 
             // chartFunction_CSR
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chartFunction_CSR.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.chartFunction_CSR.Legends.Add(legend5);
+            chartArea2.Name = "ChartArea1";
+            this.chartFunction_CSR.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartFunction_CSR.Legends.Add(legend2);
             this.chartFunction_CSR.Location = new System.Drawing.Point(535, 31);
             this.chartFunction_CSR.Name = "chartFunction_CSR";
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series5.IsVisibleInLegend = false;
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.chartFunction_CSR.Series.Add(series5);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsVisibleInLegend = false;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartFunction_CSR.Series.Add(series2);
             this.chartFunction_CSR.Size = new System.Drawing.Size(300, 287);
             this.chartFunction_CSR.TabIndex = 1;
             this.chartFunction_CSR.Text = "chart1";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox1.Location = new System.Drawing.Point(7, 19);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(373, 223);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "Протабулировать функцию на заданном диапазоне.\r\nРезультат вывести в DataGridView " +
+    "и построить график функции.\r\n";
             // 
             // FormMain
             // 
@@ -194,11 +209,13 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Спринт 6 | Таск 0 | Вариант 11 | Чепурных С. Р.";
+            this.Text = "Спринт 6 | Таск 2 | Вариант 8 | Чепурных С. Р.";
             this.groupInput_CSR.ResumeLayout(false);
             this.groupInput_CSR.PerformLayout();
             this.groupBoxResult_CSR.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFunction_CSR)).EndInit();
+            this.groupBoxTask_CSR.ResumeLayout(false);
+            this.groupBoxTask_CSR.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction_CSR)).EndInit();
             this.ResumeLayout(false);
 
@@ -219,6 +236,7 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnXY;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnX;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartFunction_CSR;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
