@@ -6,7 +6,7 @@ using Tyuiu.ChepurnykhSR.Sprint6.Task0.V11.Lib;
 namespace Tyuiu.ChepurnykhSR.Sprint6.Task0.V11.Test
 {
     [TestClass]
-    public class UnitTest1
+    public class DataServiceTest
     {
         [TestMethod]
         public void ValidCalc()
