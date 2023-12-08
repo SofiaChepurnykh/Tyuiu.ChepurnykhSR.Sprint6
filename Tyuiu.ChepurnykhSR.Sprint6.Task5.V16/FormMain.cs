@@ -51,5 +51,35 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task5.V16
         {
             MessageBox.Show("Таск 5 выполнилf студентrf группы ИСТНб-23-1 Чепурных Софья Романовна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void buttonDone_CSR_MouseEnter(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void buttonDone_CSR_MouseLeave(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Default;
+        }
+
+        private void buttonFile_CSR_MouseEnter(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void buttonFile_CSR_MouseLeave(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Default;
+        }
+
+        private void buttonHelp_CSR_MouseEnter(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void buttonHelp_CSR_MouseLeave(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.Default;
+        }
     }    
 }

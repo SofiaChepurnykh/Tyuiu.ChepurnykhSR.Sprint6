@@ -29,28 +29,28 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task5.V16
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panelTop_CSR = new System.Windows.Forms.Panel();
-            this.panelLeft_CSR = new System.Windows.Forms.Panel();
-            this.panelRight_CSR = new System.Windows.Forms.Panel();
-            this.splitterPanel_CSR = new System.Windows.Forms.Splitter();
-            this.buttonHelp_CSR = new System.Windows.Forms.Button();
-            this.buttonFile_CSR = new System.Windows.Forms.Button();
-            this.buttonDone_CSR = new System.Windows.Forms.Button();
             this.groupBoxTask_CSR = new System.Windows.Forms.GroupBox();
-            this.groupBoxResult_CSR = new System.Windows.Forms.GroupBox();
-            this.chartResult_CSR = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.textBoxTask_CSR = new System.Windows.Forms.TextBox();
+            this.buttonDone_CSR = new System.Windows.Forms.Button();
+            this.buttonFile_CSR = new System.Windows.Forms.Button();
+            this.buttonHelp_CSR = new System.Windows.Forms.Button();
+            this.panelLeft_CSR = new System.Windows.Forms.Panel();
+            this.groupBoxResult_CSR = new System.Windows.Forms.GroupBox();
             this.dataGridViewResult_CRS = new System.Windows.Forms.DataGridView();
+            this.panelRight_CSR = new System.Windows.Forms.Panel();
+            this.chartResult_CSR = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.splitterPanel_CSR = new System.Windows.Forms.Splitter();
             this.panelTop_CSR.SuspendLayout();
-            this.panelLeft_CSR.SuspendLayout();
-            this.panelRight_CSR.SuspendLayout();
             this.groupBoxTask_CSR.SuspendLayout();
+            this.panelLeft_CSR.SuspendLayout();
             this.groupBoxResult_CSR.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chartResult_CSR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult_CRS)).BeginInit();
+            this.panelRight_CSR.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartResult_CSR)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTop_CSR
@@ -65,66 +65,6 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task5.V16
             this.panelTop_CSR.Size = new System.Drawing.Size(834, 74);
             this.panelTop_CSR.TabIndex = 0;
             // 
-            // panelLeft_CSR
-            // 
-            this.panelLeft_CSR.Controls.Add(this.groupBoxResult_CSR);
-            this.panelLeft_CSR.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelLeft_CSR.Location = new System.Drawing.Point(0, 74);
-            this.panelLeft_CSR.Name = "panelLeft_CSR";
-            this.panelLeft_CSR.Size = new System.Drawing.Size(200, 337);
-            this.panelLeft_CSR.TabIndex = 1;
-            // 
-            // panelRight_CSR
-            // 
-            this.panelRight_CSR.Controls.Add(this.chartResult_CSR);
-            this.panelRight_CSR.Controls.Add(this.splitterPanel_CSR);
-            this.panelRight_CSR.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelRight_CSR.Location = new System.Drawing.Point(200, 74);
-            this.panelRight_CSR.Name = "panelRight_CSR";
-            this.panelRight_CSR.Size = new System.Drawing.Size(634, 337);
-            this.panelRight_CSR.TabIndex = 2;
-            // 
-            // splitterPanel_CSR
-            // 
-            this.splitterPanel_CSR.Location = new System.Drawing.Point(0, 0);
-            this.splitterPanel_CSR.Name = "splitterPanel_CSR";
-            this.splitterPanel_CSR.Size = new System.Drawing.Size(3, 337);
-            this.splitterPanel_CSR.TabIndex = 0;
-            this.splitterPanel_CSR.TabStop = false;
-            // 
-            // buttonHelp_CSR
-            // 
-            this.buttonHelp_CSR.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.buttonHelp_CSR.Location = new System.Drawing.Point(747, 22);
-            this.buttonHelp_CSR.Name = "buttonHelp_CSR";
-            this.buttonHelp_CSR.Size = new System.Drawing.Size(75, 46);
-            this.buttonHelp_CSR.TabIndex = 0;
-            this.buttonHelp_CSR.Text = "Справка";
-            this.buttonHelp_CSR.UseVisualStyleBackColor = false;
-            this.buttonHelp_CSR.Click += new System.EventHandler(this.buttonHelp_CSR_Click);
-            // 
-            // buttonFile_CSR
-            // 
-            this.buttonFile_CSR.BackColor = System.Drawing.Color.SteelBlue;
-            this.buttonFile_CSR.Location = new System.Drawing.Point(666, 22);
-            this.buttonFile_CSR.Name = "buttonFile_CSR";
-            this.buttonFile_CSR.Size = new System.Drawing.Size(75, 46);
-            this.buttonFile_CSR.TabIndex = 1;
-            this.buttonFile_CSR.Text = "Открыть файл";
-            this.buttonFile_CSR.UseVisualStyleBackColor = false;
-            this.buttonFile_CSR.Click += new System.EventHandler(this.buttonFile_CSR_Click);
-            // 
-            // buttonDone_CSR
-            // 
-            this.buttonDone_CSR.BackColor = System.Drawing.Color.Green;
-            this.buttonDone_CSR.Location = new System.Drawing.Point(585, 22);
-            this.buttonDone_CSR.Name = "buttonDone_CSR";
-            this.buttonDone_CSR.Size = new System.Drawing.Size(75, 46);
-            this.buttonDone_CSR.TabIndex = 2;
-            this.buttonDone_CSR.Text = "Выполнить";
-            this.buttonDone_CSR.UseVisualStyleBackColor = false;
-            this.buttonDone_CSR.Click += new System.EventHandler(this.buttonDone_CSR_Click);
-            // 
             // groupBoxTask_CSR
             // 
             this.groupBoxTask_CSR.Controls.Add(this.textBoxTask_CSR);
@@ -134,34 +74,6 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task5.V16
             this.groupBoxTask_CSR.TabIndex = 3;
             this.groupBoxTask_CSR.TabStop = false;
             this.groupBoxTask_CSR.Text = "Условие:";
-            // 
-            // groupBoxResult_CSR
-            // 
-            this.groupBoxResult_CSR.Controls.Add(this.dataGridViewResult_CRS);
-            this.groupBoxResult_CSR.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBoxResult_CSR.Location = new System.Drawing.Point(0, 0);
-            this.groupBoxResult_CSR.Name = "groupBoxResult_CSR";
-            this.groupBoxResult_CSR.Size = new System.Drawing.Size(200, 337);
-            this.groupBoxResult_CSR.TabIndex = 0;
-            this.groupBoxResult_CSR.TabStop = false;
-            this.groupBoxResult_CSR.Text = "Вывод данных:";
-            // 
-            // chartResult_CSR
-            // 
-            chartArea3.Name = "ChartArea1";
-            this.chartResult_CSR.ChartAreas.Add(chartArea3);
-            this.chartResult_CSR.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend3.Name = "Legend1";
-            this.chartResult_CSR.Legends.Add(legend3);
-            this.chartResult_CSR.Location = new System.Drawing.Point(3, 0);
-            this.chartResult_CSR.Name = "chartResult_CSR";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chartResult_CSR.Series.Add(series3);
-            this.chartResult_CSR.Size = new System.Drawing.Size(631, 337);
-            this.chartResult_CSR.TabIndex = 1;
-            this.chartResult_CSR.Text = "chart1";
             // 
             // textBoxTask_CSR
             // 
@@ -175,6 +87,65 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task5.V16
             this.textBoxTask_CSR.Text = "Прочитать данные из файла InPutFileTask5V16.txt. Вывести в dataGridView. Вывести " +
     "все положительные числа.Построить диаграмму по этим значениям.";
             // 
+            // buttonDone_CSR
+            // 
+            this.buttonDone_CSR.BackColor = System.Drawing.Color.Green;
+            this.buttonDone_CSR.Location = new System.Drawing.Point(585, 22);
+            this.buttonDone_CSR.Name = "buttonDone_CSR";
+            this.buttonDone_CSR.Size = new System.Drawing.Size(75, 46);
+            this.buttonDone_CSR.TabIndex = 2;
+            this.buttonDone_CSR.Text = "Выполнить";
+            this.buttonDone_CSR.UseVisualStyleBackColor = false;
+            this.buttonDone_CSR.Click += new System.EventHandler(this.buttonDone_CSR_Click);
+            this.buttonDone_CSR.MouseEnter += new System.EventHandler(this.buttonDone_CSR_MouseEnter);
+            this.buttonDone_CSR.MouseLeave += new System.EventHandler(this.buttonDone_CSR_MouseLeave);
+            // 
+            // buttonFile_CSR
+            // 
+            this.buttonFile_CSR.BackColor = System.Drawing.Color.SteelBlue;
+            this.buttonFile_CSR.Location = new System.Drawing.Point(666, 22);
+            this.buttonFile_CSR.Name = "buttonFile_CSR";
+            this.buttonFile_CSR.Size = new System.Drawing.Size(75, 46);
+            this.buttonFile_CSR.TabIndex = 1;
+            this.buttonFile_CSR.Text = "Открыть файл";
+            this.buttonFile_CSR.UseVisualStyleBackColor = false;
+            this.buttonFile_CSR.Click += new System.EventHandler(this.buttonFile_CSR_Click);
+            this.buttonFile_CSR.MouseEnter += new System.EventHandler(this.buttonFile_CSR_MouseEnter);
+            this.buttonFile_CSR.MouseLeave += new System.EventHandler(this.buttonFile_CSR_MouseLeave);
+            // 
+            // buttonHelp_CSR
+            // 
+            this.buttonHelp_CSR.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonHelp_CSR.Location = new System.Drawing.Point(747, 22);
+            this.buttonHelp_CSR.Name = "buttonHelp_CSR";
+            this.buttonHelp_CSR.Size = new System.Drawing.Size(75, 46);
+            this.buttonHelp_CSR.TabIndex = 0;
+            this.buttonHelp_CSR.Text = "Справка";
+            this.buttonHelp_CSR.UseVisualStyleBackColor = false;
+            this.buttonHelp_CSR.Click += new System.EventHandler(this.buttonHelp_CSR_Click);
+            this.buttonHelp_CSR.MouseEnter += new System.EventHandler(this.buttonHelp_CSR_MouseEnter);
+            this.buttonHelp_CSR.MouseLeave += new System.EventHandler(this.buttonHelp_CSR_MouseLeave);
+            // 
+            // panelLeft_CSR
+            // 
+            this.panelLeft_CSR.Controls.Add(this.groupBoxResult_CSR);
+            this.panelLeft_CSR.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelLeft_CSR.Location = new System.Drawing.Point(0, 74);
+            this.panelLeft_CSR.Name = "panelLeft_CSR";
+            this.panelLeft_CSR.Size = new System.Drawing.Size(200, 337);
+            this.panelLeft_CSR.TabIndex = 1;
+            // 
+            // groupBoxResult_CSR
+            // 
+            this.groupBoxResult_CSR.Controls.Add(this.dataGridViewResult_CRS);
+            this.groupBoxResult_CSR.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBoxResult_CSR.Location = new System.Drawing.Point(0, 0);
+            this.groupBoxResult_CSR.Name = "groupBoxResult_CSR";
+            this.groupBoxResult_CSR.Size = new System.Drawing.Size(200, 337);
+            this.groupBoxResult_CSR.TabIndex = 0;
+            this.groupBoxResult_CSR.TabStop = false;
+            this.groupBoxResult_CSR.Text = "Вывод данных:";
+            // 
             // dataGridViewResult_CRS
             // 
             this.dataGridViewResult_CRS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -184,6 +155,41 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task5.V16
             this.dataGridViewResult_CRS.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridViewResult_CRS.Size = new System.Drawing.Size(194, 318);
             this.dataGridViewResult_CRS.TabIndex = 0;
+            // 
+            // panelRight_CSR
+            // 
+            this.panelRight_CSR.Controls.Add(this.chartResult_CSR);
+            this.panelRight_CSR.Controls.Add(this.splitterPanel_CSR);
+            this.panelRight_CSR.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelRight_CSR.Location = new System.Drawing.Point(200, 74);
+            this.panelRight_CSR.Name = "panelRight_CSR";
+            this.panelRight_CSR.Size = new System.Drawing.Size(634, 337);
+            this.panelRight_CSR.TabIndex = 2;
+            // 
+            // chartResult_CSR
+            // 
+            chartArea6.Name = "ChartArea1";
+            this.chartResult_CSR.ChartAreas.Add(chartArea6);
+            this.chartResult_CSR.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend6.Name = "Legend1";
+            this.chartResult_CSR.Legends.Add(legend6);
+            this.chartResult_CSR.Location = new System.Drawing.Point(3, 0);
+            this.chartResult_CSR.Name = "chartResult_CSR";
+            series6.ChartArea = "ChartArea1";
+            series6.Legend = "Legend1";
+            series6.Name = "Series1";
+            this.chartResult_CSR.Series.Add(series6);
+            this.chartResult_CSR.Size = new System.Drawing.Size(631, 337);
+            this.chartResult_CSR.TabIndex = 1;
+            this.chartResult_CSR.Text = "chart1";
+            // 
+            // splitterPanel_CSR
+            // 
+            this.splitterPanel_CSR.Location = new System.Drawing.Point(0, 0);
+            this.splitterPanel_CSR.Name = "splitterPanel_CSR";
+            this.splitterPanel_CSR.Size = new System.Drawing.Size(3, 337);
+            this.splitterPanel_CSR.TabIndex = 0;
+            this.splitterPanel_CSR.TabStop = false;
             // 
             // FormMain
             // 
@@ -198,13 +204,13 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task5.V16
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 5 | Вариант 16 | Чепурных С. Р.";
             this.panelTop_CSR.ResumeLayout(false);
-            this.panelLeft_CSR.ResumeLayout(false);
-            this.panelRight_CSR.ResumeLayout(false);
             this.groupBoxTask_CSR.ResumeLayout(false);
             this.groupBoxTask_CSR.PerformLayout();
+            this.panelLeft_CSR.ResumeLayout(false);
             this.groupBoxResult_CSR.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.chartResult_CSR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewResult_CRS)).EndInit();
+            this.panelRight_CSR.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chartResult_CSR)).EndInit();
             this.ResumeLayout(false);
 
         }
