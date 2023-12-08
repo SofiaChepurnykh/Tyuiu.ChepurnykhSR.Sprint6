@@ -16,7 +16,7 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task4.V22
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormMain());
         }
     }
 }
