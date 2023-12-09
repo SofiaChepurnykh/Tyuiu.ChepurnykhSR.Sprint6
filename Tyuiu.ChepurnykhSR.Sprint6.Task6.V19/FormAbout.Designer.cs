@@ -38,9 +38,11 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task6.V19
             // 
             // pictureBoxAvatar_CSR
             // 
+            this.pictureBoxAvatar_CSR.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAvatar_CSR.Image")));
             this.pictureBoxAvatar_CSR.Location = new System.Drawing.Point(13, 13);
             this.pictureBoxAvatar_CSR.Name = "pictureBoxAvatar_CSR";
             this.pictureBoxAvatar_CSR.Size = new System.Drawing.Size(131, 169);
+            this.pictureBoxAvatar_CSR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxAvatar_CSR.TabIndex = 0;
             this.pictureBoxAvatar_CSR.TabStop = false;
             // 
