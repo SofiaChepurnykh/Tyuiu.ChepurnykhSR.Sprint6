@@ -21,6 +21,7 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task7.V6
             InitializeComponent();
         }
 
+
         static int rows;
         static int columns;
         static string openFilePath;
