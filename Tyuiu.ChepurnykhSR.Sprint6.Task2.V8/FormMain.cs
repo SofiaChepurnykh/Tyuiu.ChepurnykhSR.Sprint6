@@ -54,7 +54,7 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
 
         private void buttonDone_CSR_MouseEnter(object sender, EventArgs e)
         {
-            //
+            
         }
 
         private void buttonDone_CSR_MouseLeave(object sender, EventArgs e)

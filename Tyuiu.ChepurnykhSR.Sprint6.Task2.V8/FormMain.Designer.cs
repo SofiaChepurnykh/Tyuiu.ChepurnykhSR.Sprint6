@@ -30,9 +30,9 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.buttonDone_CSR = new System.Windows.Forms.Button();
             this.buttonHelp_CSR = new System.Windows.Forms.Button();
             this.groupInput_CSR = new System.Windows.Forms.GroupBox();
@@ -59,7 +59,7 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
             // 
             // buttonDone_CSR
             // 
-            this.buttonDone_CSR.Location = new System.Drawing.Point(468, 112);
+            this.buttonDone_CSR.Location = new System.Drawing.Point(468, 122);
             this.buttonDone_CSR.Name = "buttonDone_CSR";
             this.buttonDone_CSR.Size = new System.Drawing.Size(87, 28);
             this.buttonDone_CSR.TabIndex = 0;
@@ -160,18 +160,18 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
             // 
             // chartFunction_CSR
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartFunction_CSR.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartFunction_CSR.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chartFunction_CSR.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartFunction_CSR.Legends.Add(legend2);
             this.chartFunction_CSR.Location = new System.Drawing.Point(6, 16);
             this.chartFunction_CSR.Name = "chartFunction_CSR";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.IsVisibleInLegend = false;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartFunction_CSR.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsVisibleInLegend = false;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartFunction_CSR.Series.Add(series2);
             this.chartFunction_CSR.Size = new System.Drawing.Size(444, 398);
             this.chartFunction_CSR.TabIndex = 1;
             this.chartFunction_CSR.Text = "chart1";
@@ -206,7 +206,7 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(587, 367);
+            this.tabPage2.Size = new System.Drawing.Size(587, 432);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Изобарный";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -215,7 +215,7 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
             // 
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(587, 367);
+            this.tabPage3.Size = new System.Drawing.Size(587, 432);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Изохорный";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -224,7 +224,7 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
             // 
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(587, 367);
+            this.tabPage4.Size = new System.Drawing.Size(587, 432);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Адиабатный";
             this.tabPage4.UseVisualStyleBackColor = true;
