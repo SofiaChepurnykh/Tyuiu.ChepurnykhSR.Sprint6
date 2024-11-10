@@ -23,7 +23,7 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8.Lib
                 double del = x + 2.5;
                 if (del != 0)
                 {
-                    y = Math.Round(Math.Cos(2 * x) + Math.Sin(x) / del + 2 * x, 2);
+                    y = x;
                 }
                 else
                 {

@@ -42,7 +42,6 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
                 this.chartFunction_CSR.ChartAreas[0].AxisY.Title = "Ось Y";
                 for (int i = 0; i <= len - 1; i++)
                 {
-                    this.dataGridViewFunction_CSR.Rows.Add(Convert.ToString(startStep), Convert.ToString(valueArray[i]));
                     this.chartFunction_CSR.Series[0].Points.AddXY(startStep, valueArray[i]);
                     startStep++;
                 }
@@ -55,22 +54,27 @@ namespace Tyuiu.ChepurnykhSR.Sprint6.Task2.V8
 
         private void buttonDone_CSR_MouseEnter(object sender, EventArgs e)
         {
-            buttonDone_CSR.BackColor = Color.Red;
+            
         }
 
         private void buttonDone_CSR_MouseLeave(object sender, EventArgs e)
         {
-            buttonDone_CSR.BackColor = Color.Green;
+            
         }
 
         private void buttonDone_CSR_MouseDown(object sender, MouseEventArgs e)
         {
-            buttonDone_CSR.BackColor = Color.Blue;
+
         }
 
         private void buttonHelp_CSR_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Таск 2 выполнила студентка группы ИСТНб-23-1 Чепурных Софья Романовна", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void labelBoxStartStep_CSR_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
